@@ -129,7 +129,7 @@ git clone https://github.com/edawson/SigProfilerHelper sigprofilerhelper
 
 You need to first install a reference genome, such as GRCh37 (hg19):
 ```bash
-python sigprofilerhelper/install_reference.py -g GRCh37
+python sigprofilerhelper/install_reference.py -r GRCh37
 ```
 
 You can then generate a mutational counts file:
